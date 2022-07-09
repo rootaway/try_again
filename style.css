@@ -1,0 +1,393 @@
+body {
+    margin: 0 auto;
+}
+
+
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    color: #f5f5f5;
+    max-width: 1920px;
+    width: 100%;
+    min-height: 100px;
+    background-color: #363533;
+    
+}
+
+.logo {
+    display:flex;
+    max-width: 280px;
+    width:100%;
+    min-height: 150px;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-around;
+    
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+}
+
+.logo img {
+    margin-top: 20px;
+}
+
+ .logo span {
+    font-size: 50px;
+    color: red;
+}
+
+.w {
+    display: flex;
+    max-width: 600px;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+} 
+.w a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-family:'Roboto Slab', serif ;
+}
+
+.links {
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.icons {
+    display: flex;
+    max-width: 100px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.w :hover {
+    color: red;
+    
+}
+.hello {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    max-width: 1400px;
+    width:100%;
+    min-height: 700px;
+    background: url(/img/road.jpg);
+}
+
+.hello_text {
+    max-width: 500px;
+    width:100%;
+    min-height: 150px;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-around;
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    color: #f5f5f5;
+    
+}
+
+.hello_text span {
+    color: red;
+    font-size: 75px;
+}
+
+.descript {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: #f5f5f5;
+    text-align: center;
+}
+
+.descript span {
+    color: red;
+    font-size: 30px;
+}
+
+.fish {
+    margin-top: 150px;
+}
+
+.first_section {
+    max-width: 1400px;
+    width:100%;
+    min-height: 600px; 
+    background-color: #11749e;
+    position: relative;
+}
+
+.dich {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    max-width: 1400px;
+    width: 100%;
+    min-height: 300px;
+}
+
+
+.fs_text {
+    font-size: 40px;
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    position: absolute;
+    top: 150px;
+    z-index: 2;
+    
+}
+
+.z{
+    display: flex;
+    position: relative;
+    top: 0;
+    max-width:200px;
+    width:100%;
+    font-size: 300px;
+    top: 0px;
+    color:#3c8daf;
+    text-align: center;
+}
+
+.service {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    min-height: 500px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.service_block1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 400px;
+    max-width: 300px;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.service_block2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 400px;
+    max-width: 300px;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.service_block3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 400px;
+    max-width: 300px;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.service_block4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 400px;
+    max-width: 300px;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.block_text {
+font-size: 18px;
+color: #ffffff;
+font-family: 'Roboto Slab', serif;
+}
+
+.block_descript {
+font-size: 15px;
+color: #ffffff;
+font-family: 'Roboto Slab', serif;
+}
+
+.second_section {
+    display: grid;
+    
+    grid-template-columns: minmax(150px, 700px) minmax(150px, 700px);
+    grid-template-rows: min-content;
+    grid-template-areas: 
+    "why" "image1"
+    "because" "image2";
+
+}
+
+.why {
+    grid-area: "why";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 700px;
+    width:100%;
+    min-height: 380px;
+    background-color: #222222;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+}
+
+.because {
+    display: flex;
+    grid-area: "because";
+    flex-direction: column;
+    justify-content: center;
+    max-width: 700px;
+    width:100%;
+    min-height: 380px;
+    background-color: #f3f3f3;
+    font-size: 15px;
+    color: #222222;;
+    font-family: 'Roboto Slab', serif;
+}
+
+.why div {
+    font-size: 20px;
+}
+
+.because div {
+    font-size: 20px;
+}
+
+.image1 {
+    display: flex;
+    grid-area: "image1";
+    max-width: 700px;
+    width:100%;
+    min-height: 380px;
+    background: url(/img/Lie-to-Me-HD-Wallpapers-Injured.jpg);
+    margin: 0;
+}
+
+.image2 {
+    display: flex;
+    grid-area: "image2";
+    max-width: 700px;
+    min-height: 380px;
+    width:100%;
+    background: url(/img/4f0adcd8adb1315f82f495eec12b5c61.jpg);
+}
+
+.vendetta {
+    font-size: 40px;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    position: absolute;
+    top: 150px;
+    z-index: 2;
+    
+}
+
+.k{
+    display: flex;
+    position: relative;
+    top: 0;
+    max-width:200px;
+    width:100%;
+    font-size: 300px;
+    top: 0px;
+    color:#d7d7d7;
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    max-width: 1400px;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 500px;
+}
+
+.team1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 400px;
+    max-width: 300px;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.team2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 400px;
+    max-width: 300px;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.team3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 400px;
+    max-width: 300px;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.team4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 400px;
+    max-width: 300px;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.block_team {
+    font-size: 18px;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    }
+
+    
+.team_descript {
+    font-size: 15px;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    }
+
+    .fourth_section {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    width:100%;
+    min-height: 700px;
+    background: url(/img/cherno-belaya-oblaka.jpg)
+    }
+
