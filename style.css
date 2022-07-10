@@ -438,12 +438,68 @@ font-family: 'Roboto Slab', serif;
         display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: baseline;
+    align-items: center;
     color: #f5f5f5;
     max-width: 1400px;
     width: 100%;
     min-height: 100px;
     background-color: #363533;
+    
+    }
+    
+    .qwerty1 {
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #f5f5f5;
+    max-width: 1400px;
+    width: 100%;
+    min-height: 100px;
+    background-color: #363533;
+    position: relative;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    }
+    
+    .qwerty1 button {
+        width:200px;
+        min-height: 50px;
+        font-size: 25px;
+        background-color: #ffffff;
+        border: none;
+        position: relative;
+        transition: transform .8s ease-in-out;
+        
+    }
+    .qwerty1 button:hover {
+        cursor: pointer;
+        background-color: red;
+    }
+    
+
+    .none {
+        display: none;
+        max-width: 1400px;
+        width:100%;
+        min-height: 1000px;
+        background-color: rgba(20, 20, 20, 0.7);
+        color: red;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+        font-size: 50px; 
+        position: absolute;
+       
+        
+    }
+    .qwerty1 button:hover {
+        transform: rotateZ(360deg)
+    }
+
+    .qwerty1 button:focus ~.none {
+        display: flex;
+        
     }
 
     .fourth_section {
@@ -452,7 +508,7 @@ font-family: 'Roboto Slab', serif;
     flex-wrap: wrap;
     max-width: 1400px;
     width:100%;
-    min-height: 600px;
+    min-height: 700px;
     background: url(/img/cherno-belaya-oblaka.jpg)
     
     }
@@ -511,12 +567,25 @@ font-family: 'Roboto Slab', serif;
     min-height: 400px;
     justify-content: space-around;
     position: relative;
-    top: -80px;
+    
+    
     
 }
 
+.big {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1400px;
+    width:100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    min-height: 450px;
+    align-items: center;
+
+}
+
 .zakazi {
-    color:black;
+    color:#ffffff;
     font-family: 'Roboto Slab', serif;
     font-size: 25px;
 }
@@ -552,11 +621,19 @@ select {
 .submit {
     background-color:#079fe0;
 }
+.submit :hover {
+
+    background-color: #ffffff;
+    cursor: pointer;
+
+}
+
+
 
 
 .navi {
     overflow:hidden;
-    padding-bottom:56.25%;
+    padding-bottom:40%;
     position:relative;
     height:0;
 }
@@ -567,4 +644,21 @@ select {
     height:100%;
     width:100%;
     position:absolute;
+}
+
+footer {
+    display: flex;
+    max-width: 1400px;
+    width:100%;
+    min-height: 100px;
+    background-color: #363533;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+footer div {
+    color:#ffffff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
 }
