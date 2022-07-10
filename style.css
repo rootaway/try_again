@@ -293,6 +293,9 @@ font-family: 'Roboto Slab', serif;
     font-size: 20px;
 }
 
+
+
+
 .because div {
     font-size: 20px;
 }
@@ -425,6 +428,12 @@ font-family: 'Roboto Slab', serif;
     top: -100px;
     }
 
+    .team_descript span {
+        color: yellow;
+        font-size: 20px;
+    }
+    
+    
     .qwerty {
         display: flex;
     flex-wrap: wrap;
@@ -439,11 +448,13 @@ font-family: 'Roboto Slab', serif;
 
     .fourth_section {
     display: flex;
+    position: relative;
     flex-wrap: wrap;
     max-width: 1400px;
     width:100%;
-    min-height: 700px;
+    min-height: 600px;
     background: url(/img/cherno-belaya-oblaka.jpg)
+    
     }
 
     .fourthstext {
@@ -474,15 +485,15 @@ font-family: 'Roboto Slab', serif;
     display:flex;
     max-width: 280px;
     width:100%;
-    min-height: 150px;
+    min-height: 100px;
     flex-wrap: wrap;
     align-items: baseline;
     justify-content: space-around;
     
     font-family: 'Roboto Slab', serif;
     font-size: 25px;
-    position: relative;
-    top: -200px;
+    position: absolute;
+    top:150px;
     z-index: 2;
   }
 
@@ -490,6 +501,58 @@ font-family: 'Roboto Slab', serif;
     font-size: 50px;
     color: red;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    width:100%;
+    flex-wrap: wrap;
+    min-height: 400px;
+    justify-content: space-around;
+    position: relative;
+    top: -80px;
+    
+}
+
+.zakazi {
+    color:black;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+}
+.zakazi span {
+    color: red;
+}
+
+input {
+    background-color: rgba(108, 110, 110, 0.637);
+    max-width: 200px;
+    width: 100%;
+    min-height: 50px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color:black;
+    
+}
+
+select {
+    background-color: rgba(108, 110, 110, 0.637);
+    max-width: 200px;
+    width: 100%;
+    min-height: 50px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color:black;
+}
+
+::-webkit-input-placeholder { 
+    color:    black;
+}
+
+.submit {
+    background-color:#079fe0;
+}
+
 
 .navi {
     overflow:hidden;
