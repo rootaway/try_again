@@ -10,10 +10,13 @@ body {
     justify-content: space-around;
     align-items: baseline;
     color: #f5f5f5;
-    max-width: 1920px;
+    max-width: 1400px;
     width: 100%;
     min-height: 100px;
     background-color: #363533;
+    position: sticky;
+    top: 0;
+    z-index:5;
     
 }
 
@@ -21,7 +24,7 @@ body {
     display:flex;
     max-width: 280px;
     width:100%;
-    min-height: 150px;
+    min-height: 120px;
     flex-wrap: wrap;
     align-items: baseline;
     justify-content: space-around;
@@ -67,6 +70,13 @@ body {
     max-width: 100px;
     width: 100%;
     justify-content: space-between;
+}
+.icons a {
+    color: #f5f5f5;
+}
+
+.icons a :hover {
+    color: red;
 }
 
 .w :hover {
@@ -159,6 +169,17 @@ body {
     color:#3c8daf;
     text-align: center;
 }
+.fr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    color: #f5f5f5;
+}
+
+
 
 .service {
     display: flex;
@@ -328,6 +349,20 @@ font-family: 'Roboto Slab', serif;
     min-height: 500px;
 }
 
+.steam {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+
+
+
 .team1 {
     display: flex;
     flex-direction: column;
@@ -370,9 +405,15 @@ font-family: 'Roboto Slab', serif;
 }
 
 .block_team {
+    position: relative;
     font-size: 18px;
     color: black;
     font-family: 'Roboto Slab', serif;
+    top: -80px;
+    background-color: rgba(255, 255, 255, 0.7);
+    max-width: 300px;
+    width:100%;
+    min-height: 60px;
     }
 
     
@@ -380,6 +421,20 @@ font-family: 'Roboto Slab', serif;
     font-size: 15px;
     color: black;
     font-family: 'Roboto Slab', serif;
+    position: relative;
+    top: -100px;
+    }
+
+    .qwerty {
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    color: #f5f5f5;
+    max-width: 1400px;
+    width: 100%;
+    min-height: 100px;
+    background-color: #363533;
     }
 
     .fourth_section {
@@ -409,7 +464,7 @@ font-family: 'Roboto Slab', serif;
     width:100%;
     font-size: 200px;
     top: 0px;
-    color:#d7d7d7;
+    
     text-align: center;
     color: red;
         
@@ -430,3 +485,23 @@ font-family: 'Roboto Slab', serif;
     top: -200px;
     z-index: 2;
   }
+
+  .logo1 span {
+    font-size: 50px;
+    color: red;
+}
+
+.navi {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
